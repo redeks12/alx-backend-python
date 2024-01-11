@@ -1,4 +1,4 @@
-# !/usr/bin/env python3
+#!/usr/bin/env python3
 """0. Basic annotations - add"""
 # filename: 102-type_checking.py
 
