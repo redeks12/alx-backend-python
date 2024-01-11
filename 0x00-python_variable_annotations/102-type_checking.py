@@ -2,10 +2,11 @@
 """0. Basic annotations - add"""
 # filename: 102-type_checking.py
 
-from typing import Tuple, List
+from typing import Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
+    """0. Basic annotations - add"""
     zoomed_in: Tuple = tuple([item for item in lst for i in range(factor)])
     return zoomed_in
 
