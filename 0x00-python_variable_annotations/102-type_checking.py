@@ -2,7 +2,7 @@
 """0. Basic annotations - add"""
 # filename: 102-type_checking.py
 
-from typing import Tuple, List
+from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
@@ -16,6 +16,3 @@ array = tuple([12, 72, 91])
 zoom_2x = zoom_array(array)
 
 zoom_3x = zoom_array(array, int(3.0))
-
-
-print(zoom_array.__annotations__)
