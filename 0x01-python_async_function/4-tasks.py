@@ -11,10 +11,9 @@ task_wait_random = __import__("3-tasks").task_wait_random
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """Let's execute multiple coroutines at the same time with async"""
-    arr = []
+    arr: List[float] = []
     for i in range(n):
-        random_number = await task_wait_random(max_delay)
-        arr.append(random_number)
+        arr.append(await task_wait_random(max_delay))
     for i in range(len(arr)):
         for j in range(0, n - i - 1):
             if arr[j] > arr[j + 1]:
