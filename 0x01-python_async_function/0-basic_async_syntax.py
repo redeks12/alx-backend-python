@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-Curriculum
-Short Specializations
-Average: 118.3%
-0x01. Python - Async """
+"""Average: 118.3% 0x01. Python - Async """
 
 
 import random
