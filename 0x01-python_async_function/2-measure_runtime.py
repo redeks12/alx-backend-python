@@ -14,7 +14,7 @@ def measure_time(n: int, max_index: int) -> float:
     """
     measure_time function
     """
-    start = time.time()
+    start: float = time.time()
     asyncio.run(wait_n(n, max_index))
-    end = time.time()
+    end: float = time.time()
     return (end - start) / n

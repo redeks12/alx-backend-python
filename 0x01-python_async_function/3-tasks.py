@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-Curriculum
-Short Specializations
-Average: 118.3%
-0x01. Python - Async """
+"""0x01. Python - Async """
 import asyncio
 
 wait_random = __import__("0-basic_async_syntax").wait_random
