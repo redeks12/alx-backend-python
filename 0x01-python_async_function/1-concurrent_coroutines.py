@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
-"""
-Curriculum
-Short Specializations
-Average: 118.3%
-0x01. Python - Async """
+"""0x01. Python - Async """
 
-
+from typing import List
 wait_random = __import__("0-basic_async_syntax").wait_random
 
 
-async def wait_n(n: int, max_delay: int):
-    '''Let's execute multiple coroutines at the same time with async'''
+async def wait_n(n: int, max_delay: int) -> List[float]:
+    """Let's execute multiple coroutines at the same time with async"""
     arr = []
     for i in range(n):
         random_number = await wait_random(max_delay)

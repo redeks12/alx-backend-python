@@ -10,7 +10,7 @@ wait_n = __import__("1-concurrent_coroutines").wait_n
 import time
 
 
-def measure_time(n: int, max_index: int):
+def measure_time(n: int, max_index: int) -> float:
     """
     measure_time function
     """
