@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """0x02. Python - Async Comprehension"""
-from random import uniform
 import asyncio
+from random import uniform
 from typing import AsyncGenerator
 
 
